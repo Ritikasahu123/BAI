@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>CONTACTS</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<style>
+  h1{color:rgb(21, 20, 20);
+    font-family: "Times New Roman", Times, serif;
+    position:relative;
+    text-align:center;
+    font-size:30px;
+    text-shadow: 2px 2px red;
+
+  }
+  h2{
+    color:rgb(249, 246, 243);
+    text-align:center;
+    font-size:30px;
+
+
+  }
+  h3{
+    color:rgb(244, 153, 49);
+    font-family: "Times New Roman", Times, serif;
+    position:relative;
+    text-align:center;
+    font-size:30px;
+    text-shadow: 2px 2px red;
+  }
+  h4{color:rgb(239, 133, 11);
+    font-family: "Times New Roman", Times, serif;
+    position:relative;
+    text-align:center;
+    font-size:30px;
+
+  }
+  h5{color:rgb(9, 8, 8);
+    font-family: "Times New Roman", Times, serif;
+    position:relative;
+    text-align:center;
+    font-size:20px;
+
+
+  }
+  p{text-align:center;
+    font-size:18px;
+  }
+  .container {
+    position: relative;
+    text-align: center;
+    color: rgb(245, 223, 125);
+    
+  }
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .siteFooterBar {
+    position: fixed;
+    bottom: 0;
+    padding-top: 10px;
+    width: 100%;
+    box-shadow: 0px 0px 25px rgb(207, 207, 207);
+    height: 60px;
+    color:gray;
+    background:black;
+  }
+  
+  .content {
+    display: block;
+    padding: 10px;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 20px;
+    width:250px;
+    
+  }
+  .footer {
+    background-color: #101010;
+    padding: 96px;
+    text-align:center;
+    color: aliceblue;
+    width:100%;
+    position:absolute;
+    height:100px;
+    margin-bottom:-100px;
+    margin:1 rem auto;
+    
+  }
+  p{
+    margin-top:auto;
+    font-size: 15px;
+  }
+  
+  
+</style>
+<body>
+  <div class="container">
+    <img src="https://i.postimg.cc/QtncYjwq/istockphoto-483827022-170667a.jpg"  style="width:100%;height:100px;">
+    
+    <div class="centered"><h1><b>CONTACT US</b></h1></div>
+  </div>
+  <br>
+  <div class="row" margin="10">
+    <div class="col p-3 bg-primary text-white" ><h2>    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" allign="center" fill="currentColor" class="bi bi-house-door" viewBox="0 0 16 16">
+      <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146ZM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5Z"/>
+    </svg></h2><h3> ADDRESS</h3>
+        <p>BALAJI AGROTECH INDUSTIRES
+          Saparom Tikratoli , Nagri, RANCHI -835303 JHARKHAND INDIA</p>
+    </div>
+    
+    <div class="col p-3 bg-dark text-white"><h2>    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-phone" viewBox="0 0 16 16">
+      <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
+      <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+    </svg> </h2>
+    <h3>CONTACT</h3> 
+    <p>9835078799</p>
+      <p>9608086621</p>
+    </div>
+    <div class="col p-3 bg-primary text-white"><h2>  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+      <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
+    </svg></h2><h3>EMAIL</h3>
+      <p>bairice@rediffmail.com</p></div>
+  </div>
+</div>
+<br>
+<h4><b>DROP US A MESSAGE FOR ANY QUERY</b></h4>
+<h5>we would love to hear your ideas</h5>
+<br>
+<div class="input-group mb-3">
+  <span class="input-group-text" id="basic-addon1"></span>
+  <input type="text" class="form-control" placeholder="Name" aria-label="Name" aria-describedby="basic-addon1">
+</div>
+
+<div class="input-group mb-3">
+  <input type="text" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="basic-addon2">
+</div>
+<div class="input-group mb-3">
+  <span class="input-group-text">+91</span>
+  <input type="text" class="form-control" placeholder="Phone"aria-label="Phone">
+  <span class="input-group-text"></span>
+</div>
+
+<div class="input-group mb-3">
+  <input type="text" class="form-control" placeholder="Subject" aria-label="Subject">
+  <span class="input-group-text"></span>
+</div>
+
+<div class="input-group">
+  <span class="input-group-text">Your Message</span>
+  <textarea class="form-control" aria-label="Your Message"></textarea>
+</div>
+<br>
+<div class="col-12" class="h3 text-center hidden"></div>
+  <button class="btn btn-primary" type="submit">Send message</button>
+</div>
+<br>
+<br>
+<div class="footer">
+  <p>Copyright © 2021 BALAJIAGROTECH INDUSTIRES - All Rights Reserved.
+  <img allign=center src="https://i.postimg.cc/RCkqkHH8/Whats-App-Image-2022-10-10-at-9-51-45-AM-1.png' border='0'"style="width:100px;height:100px;padding:10px;"> 
+   
+  </p>
+</div>
+
+  </body>
+  </html>
+    
+   
